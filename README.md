@@ -114,4 +114,4 @@ The three datasets are public. We do not redistribute the raw imaging here; the 
 
 ## License
 
-Released under an open-source license; see `license.txt` at the repository root.
+Released under the MIT License; see `LICENSE` at the repository root.
