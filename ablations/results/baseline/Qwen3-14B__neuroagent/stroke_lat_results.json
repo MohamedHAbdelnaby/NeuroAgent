@@ -1,0 +1,39 @@
+{
+  "n_samples": 579,
+  "n_positive": 286,
+  "n_negative": 293,
+  "accuracy": 0.8152,
+  "balanced_accuracy": 0.8162,
+  "precision_macro": 0.8242,
+  "recall_macro": 0.8162,
+  "f1_macro": 0.8142,
+  "f1_positive": 0.8277,
+  "f1_negative": 0.8007,
+  "precision_positive": 0.7672,
+  "recall_positive": 0.8986,
+  "precision_negative": 0.8811,
+  "recall_negative": 0.7338,
+  "sensitivity": 0.8986,
+  "specificity": 0.7338,
+  "confusion_matrix": [
+    [
+      215,
+      78
+    ],
+    [
+      29,
+      257
+    ]
+  ],
+  "true_negatives": 215,
+  "false_positives": 78,
+  "false_negatives": 29,
+  "true_positives": 257,
+  "auc_roc": 0.8588,
+  "pr_auc": 0.8304,
+  "model": "Qwen3-14B",
+  "task": "stroke_lat",
+  "n_invalid": 4,
+  "total_tokens": 14608613,
+  "mean_elapsed_s": 142.9
+}

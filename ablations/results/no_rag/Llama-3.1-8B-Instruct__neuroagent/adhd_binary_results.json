@@ -1,0 +1,39 @@
+{
+  "n_samples": 584,
+  "n_positive": 154,
+  "n_negative": 430,
+  "accuracy": 0.6473,
+  "balanced_accuracy": 0.6375,
+  "precision_macro": 0.61,
+  "recall_macro": 0.6375,
+  "f1_macro": 0.6065,
+  "f1_positive": 0.4798,
+  "f1_negative": 0.7332,
+  "precision_positive": 0.3926,
+  "recall_positive": 0.6169,
+  "precision_negative": 0.8275,
+  "recall_negative": 0.6581,
+  "sensitivity": 0.6169,
+  "specificity": 0.6581,
+  "confusion_matrix": [
+    [
+      283,
+      147
+    ],
+    [
+      59,
+      95
+    ]
+  ],
+  "true_negatives": 283,
+  "false_positives": 147,
+  "false_negatives": 59,
+  "true_positives": 95,
+  "auc_roc": 0.6375,
+  "pr_auc": 0.3432,
+  "model": "Llama-3.1-8B-Instruct",
+  "task": "adhd_binary",
+  "n_invalid": 0,
+  "total_tokens": 17020511,
+  "mean_elapsed_s": 60.54
+}

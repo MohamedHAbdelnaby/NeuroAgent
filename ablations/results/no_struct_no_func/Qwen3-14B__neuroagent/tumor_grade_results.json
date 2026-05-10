@@ -1,0 +1,39 @@
+{
+  "n_samples": 1611,
+  "n_positive": 1215,
+  "n_negative": 396,
+  "accuracy": 0.7449,
+  "balanced_accuracy": 0.4964,
+  "precision_macro": 0.4478,
+  "recall_macro": 0.4964,
+  "f1_macro": 0.4339,
+  "f1_positive": 0.8535,
+  "f1_negative": 0.0144,
+  "precision_positive": 0.7528,
+  "recall_positive": 0.9852,
+  "precision_negative": 0.1429,
+  "recall_negative": 0.0076,
+  "sensitivity": 0.9852,
+  "specificity": 0.0076,
+  "confusion_matrix": [
+    [
+      3,
+      393
+    ],
+    [
+      18,
+      1197
+    ]
+  ],
+  "true_negatives": 3,
+  "false_positives": 393,
+  "false_negatives": 18,
+  "true_positives": 1197,
+  "auc_roc": 0.5125,
+  "pr_auc": 0.7596,
+  "model": "Qwen3-14B",
+  "task": "tumor_grade",
+  "n_invalid": 10,
+  "total_tokens": 61649844,
+  "mean_elapsed_s": 210.19
+}

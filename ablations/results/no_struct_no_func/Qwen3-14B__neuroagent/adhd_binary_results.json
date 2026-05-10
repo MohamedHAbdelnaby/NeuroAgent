@@ -1,0 +1,39 @@
+{
+  "n_samples": 584,
+  "n_positive": 154,
+  "n_negative": 430,
+  "accuracy": 0.6318,
+  "balanced_accuracy": 0.6229,
+  "precision_macro": 0.5978,
+  "recall_macro": 0.6229,
+  "f1_macro": 0.5918,
+  "f1_positive": 0.4638,
+  "f1_negative": 0.7197,
+  "precision_positive": 0.3765,
+  "recall_positive": 0.6039,
+  "precision_negative": 0.819,
+  "recall_negative": 0.6419,
+  "sensitivity": 0.6039,
+  "specificity": 0.6419,
+  "confusion_matrix": [
+    [
+      276,
+      154
+    ],
+    [
+      61,
+      93
+    ]
+  ],
+  "true_negatives": 276,
+  "false_positives": 154,
+  "false_negatives": 61,
+  "true_positives": 93,
+  "auc_roc": 0.6229,
+  "pr_auc": 0.3318,
+  "model": "Qwen3-14B",
+  "task": "adhd_binary",
+  "n_invalid": 0,
+  "total_tokens": 8050880,
+  "mean_elapsed_s": 108.49
+}

@@ -1,0 +1,39 @@
+{
+  "n_samples": 583,
+  "n_positive": 289,
+  "n_negative": 294,
+  "accuracy": 0.8233,
+  "balanced_accuracy": 0.8226,
+  "precision_macro": 0.833,
+  "recall_macro": 0.8226,
+  "f1_macro": 0.8218,
+  "f1_positive": 0.8053,
+  "f1_negative": 0.8383,
+  "precision_positive": 0.8875,
+  "recall_positive": 0.737,
+  "precision_negative": 0.7784,
+  "recall_negative": 0.9082,
+  "sensitivity": 0.737,
+  "specificity": 0.9082,
+  "confusion_matrix": [
+    [
+      267,
+      27
+    ],
+    [
+      76,
+      213
+    ]
+  ],
+  "true_negatives": 267,
+  "false_positives": 27,
+  "false_negatives": 76,
+  "true_positives": 213,
+  "auc_roc": 0.8151,
+  "pr_auc": 0.8157,
+  "model": "Llama-3.1-8B-Instruct",
+  "task": "stroke_lat",
+  "n_invalid": 0,
+  "total_tokens": 9044262,
+  "mean_elapsed_s": 22.74
+}

@@ -1,0 +1,600 @@
+{
+  "icv_ref_mm3": 1400000.0,
+  "structures": [
+    "Left-Caudate",
+    "Right-Caudate",
+    "Left-Putamen",
+    "Right-Putamen",
+    "Left-Pallidum",
+    "Right-Pallidum",
+    "Left-Hippocampus",
+    "Right-Hippocampus",
+    "Left-Amygdala",
+    "Right-Amygdala",
+    "Left-Accumbens-area",
+    "Right-Accumbens-area",
+    "Left-Thalamus",
+    "Right-Thalamus",
+    "Left-Cerebellum-Cortex",
+    "Right-Cerebellum-Cortex"
+  ],
+  "norms": {
+    "KKI": {
+      "Left-Caudate": {
+        "mean": 4033.38,
+        "sd": 452.5,
+        "n": 61
+      },
+      "Right-Caudate": {
+        "mean": 4328.3,
+        "sd": 459.98,
+        "n": 61
+      },
+      "Left-Putamen": {
+        "mean": 5765.53,
+        "sd": 530.54,
+        "n": 61
+      },
+      "Right-Putamen": {
+        "mean": 5790.61,
+        "sd": 539.42,
+        "n": 61
+      },
+      "Left-Pallidum": {
+        "mean": 1902.87,
+        "sd": 179.41,
+        "n": 61
+      },
+      "Right-Pallidum": {
+        "mean": 1778.68,
+        "sd": 176.91,
+        "n": 61
+      },
+      "Left-Hippocampus": {
+        "mean": 3990.05,
+        "sd": 284.33,
+        "n": 61
+      },
+      "Right-Hippocampus": {
+        "mean": 4046.51,
+        "sd": 281.97,
+        "n": 61
+      },
+      "Left-Amygdala": {
+        "mean": 1656.59,
+        "sd": 145.56,
+        "n": 61
+      },
+      "Right-Amygdala": {
+        "mean": 1777.35,
+        "sd": 145.44,
+        "n": 61
+      },
+      "Left-Accumbens-area": {
+        "mean": 781.19,
+        "sd": 105.22,
+        "n": 61
+      },
+      "Right-Accumbens-area": {
+        "mean": 746.16,
+        "sd": 93.08,
+        "n": 61
+      },
+      "Left-Thalamus": {
+        "mean": 7629.3,
+        "sd": 494.6,
+        "n": 61
+      },
+      "Right-Thalamus": {
+        "mean": 7414.93,
+        "sd": 480.94,
+        "n": 61
+      },
+      "Left-Cerebellum-Cortex": {
+        "mean": 55654.53,
+        "sd": 4391.1,
+        "n": 61
+      },
+      "Right-Cerebellum-Cortex": {
+        "mean": 54673.96,
+        "sd": 4587.74,
+        "n": 61
+      }
+    },
+    "NYU": {
+      "Left-Caudate": {
+        "mean": 3864.47,
+        "sd": 405.79,
+        "n": 99
+      },
+      "Right-Caudate": {
+        "mean": 4072.48,
+        "sd": 402.36,
+        "n": 99
+      },
+      "Left-Putamen": {
+        "mean": 5528.43,
+        "sd": 528.83,
+        "n": 99
+      },
+      "Right-Putamen": {
+        "mean": 5575.93,
+        "sd": 515.86,
+        "n": 99
+      },
+      "Left-Pallidum": {
+        "mean": 1896.29,
+        "sd": 175.41,
+        "n": 99
+      },
+      "Right-Pallidum": {
+        "mean": 1792.19,
+        "sd": 154.55,
+        "n": 99
+      },
+      "Left-Hippocampus": {
+        "mean": 3938.79,
+        "sd": 304.72,
+        "n": 99
+      },
+      "Right-Hippocampus": {
+        "mean": 4045.17,
+        "sd": 343.39,
+        "n": 99
+      },
+      "Left-Amygdala": {
+        "mean": 1581.02,
+        "sd": 224.36,
+        "n": 99
+      },
+      "Right-Amygdala": {
+        "mean": 1680.9,
+        "sd": 224.12,
+        "n": 99
+      },
+      "Left-Accumbens-area": {
+        "mean": 780.09,
+        "sd": 99.51,
+        "n": 99
+      },
+      "Right-Accumbens-area": {
+        "mean": 751.18,
+        "sd": 104.23,
+        "n": 99
+      },
+      "Left-Thalamus": {
+        "mean": 7509.86,
+        "sd": 443.05,
+        "n": 99
+      },
+      "Right-Thalamus": {
+        "mean": 7283.33,
+        "sd": 409.45,
+        "n": 99
+      },
+      "Left-Cerebellum-Cortex": {
+        "mean": 44337.42,
+        "sd": 11362.05,
+        "n": 99
+      },
+      "Right-Cerebellum-Cortex": {
+        "mean": 44101.37,
+        "sd": 10046.35,
+        "n": 99
+      }
+    },
+    "NeuroIMAGE": {
+      "Left-Caudate": {
+        "mean": 3981.76,
+        "sd": 355.35,
+        "n": 23
+      },
+      "Right-Caudate": {
+        "mean": 4207.06,
+        "sd": 362.03,
+        "n": 23
+      },
+      "Left-Putamen": {
+        "mean": 5485.61,
+        "sd": 386.97,
+        "n": 23
+      },
+      "Right-Putamen": {
+        "mean": 5448.61,
+        "sd": 373.64,
+        "n": 23
+      },
+      "Left-Pallidum": {
+        "mean": 1939.65,
+        "sd": 99.3,
+        "n": 23
+      },
+      "Right-Pallidum": {
+        "mean": 1905.58,
+        "sd": 109.03,
+        "n": 23
+      },
+      "Left-Hippocampus": {
+        "mean": 4163.47,
+        "sd": 256.51,
+        "n": 23
+      },
+      "Right-Hippocampus": {
+        "mean": 4178.21,
+        "sd": 247.33,
+        "n": 23
+      },
+      "Left-Amygdala": {
+        "mean": 1677.32,
+        "sd": 143.01,
+        "n": 23
+      },
+      "Right-Amygdala": {
+        "mean": 1771.5,
+        "sd": 170.21,
+        "n": 23
+      },
+      "Left-Accumbens-area": {
+        "mean": 727.05,
+        "sd": 61.26,
+        "n": 23
+      },
+      "Right-Accumbens-area": {
+        "mean": 696.48,
+        "sd": 51.21,
+        "n": 23
+      },
+      "Left-Thalamus": {
+        "mean": 8297.53,
+        "sd": 484.74,
+        "n": 23
+      },
+      "Right-Thalamus": {
+        "mean": 7911.13,
+        "sd": 438.31,
+        "n": 23
+      },
+      "Left-Cerebellum-Cortex": {
+        "mean": 59467.39,
+        "sd": 3828.22,
+        "n": 23
+      },
+      "Right-Cerebellum-Cortex": {
+        "mean": 54091.53,
+        "sd": 4463.02,
+        "n": 23
+      }
+    },
+    "OHSU": {
+      "Left-Caudate": {
+        "mean": 3858.84,
+        "sd": 369.83,
+        "n": 69
+      },
+      "Right-Caudate": {
+        "mean": 3970.19,
+        "sd": 377.67,
+        "n": 69
+      },
+      "Left-Putamen": {
+        "mean": 5430.7,
+        "sd": 405.54,
+        "n": 69
+      },
+      "Right-Putamen": {
+        "mean": 5460.46,
+        "sd": 432.21,
+        "n": 69
+      },
+      "Left-Pallidum": {
+        "mean": 1960.04,
+        "sd": 143.09,
+        "n": 69
+      },
+      "Right-Pallidum": {
+        "mean": 1835.16,
+        "sd": 137.83,
+        "n": 69
+      },
+      "Left-Hippocampus": {
+        "mean": 4124.72,
+        "sd": 327.82,
+        "n": 69
+      },
+      "Right-Hippocampus": {
+        "mean": 4211.83,
+        "sd": 338.99,
+        "n": 69
+      },
+      "Left-Amygdala": {
+        "mean": 1730.31,
+        "sd": 123.72,
+        "n": 69
+      },
+      "Right-Amygdala": {
+        "mean": 1769.05,
+        "sd": 121.07,
+        "n": 69
+      },
+      "Left-Accumbens-area": {
+        "mean": 641.21,
+        "sd": 87.62,
+        "n": 69
+      },
+      "Right-Accumbens-area": {
+        "mean": 728.1,
+        "sd": 100.27,
+        "n": 69
+      },
+      "Left-Thalamus": {
+        "mean": 7819.29,
+        "sd": 434.89,
+        "n": 69
+      },
+      "Right-Thalamus": {
+        "mean": 7594.83,
+        "sd": 454.49,
+        "n": 69
+      },
+      "Left-Cerebellum-Cortex": {
+        "mean": 55846.11,
+        "sd": 4527.13,
+        "n": 69
+      },
+      "Right-Cerebellum-Cortex": {
+        "mean": 55246.87,
+        "sd": 4435.37,
+        "n": 69
+      }
+    },
+    "Peking_1": {
+      "Left-Caudate": {
+        "mean": 3688.77,
+        "sd": 295.35,
+        "n": 88
+      },
+      "Right-Caudate": {
+        "mean": 3851.55,
+        "sd": 312.75,
+        "n": 88
+      },
+      "Left-Putamen": {
+        "mean": 5489.83,
+        "sd": 443.73,
+        "n": 88
+      },
+      "Right-Putamen": {
+        "mean": 5547.74,
+        "sd": 452.92,
+        "n": 88
+      },
+      "Left-Pallidum": {
+        "mean": 1901.49,
+        "sd": 161.34,
+        "n": 88
+      },
+      "Right-Pallidum": {
+        "mean": 1810.26,
+        "sd": 146.75,
+        "n": 88
+      },
+      "Left-Hippocampus": {
+        "mean": 3892.0,
+        "sd": 257.74,
+        "n": 88
+      },
+      "Right-Hippocampus": {
+        "mean": 4015.34,
+        "sd": 261.62,
+        "n": 88
+      },
+      "Left-Amygdala": {
+        "mean": 1641.65,
+        "sd": 121.08,
+        "n": 88
+      },
+      "Right-Amygdala": {
+        "mean": 1674.87,
+        "sd": 133.54,
+        "n": 88
+      },
+      "Left-Accumbens-area": {
+        "mean": 665.94,
+        "sd": 82.03,
+        "n": 88
+      },
+      "Right-Accumbens-area": {
+        "mean": 676.95,
+        "sd": 89.0,
+        "n": 88
+      },
+      "Left-Thalamus": {
+        "mean": 7425.17,
+        "sd": 411.02,
+        "n": 88
+      },
+      "Right-Thalamus": {
+        "mean": 7201.72,
+        "sd": 405.96,
+        "n": 88
+      },
+      "Left-Cerebellum-Cortex": {
+        "mean": 52488.68,
+        "sd": 3834.82,
+        "n": 88
+      },
+      "Right-Cerebellum-Cortex": {
+        "mean": 52381.78,
+        "sd": 4176.73,
+        "n": 88
+      }
+    },
+    "Pittsburgh": {
+      "Left-Caudate": {
+        "mean": 3907.19,
+        "sd": 414.55,
+        "n": 89
+      },
+      "Right-Caudate": {
+        "mean": 4000.3,
+        "sd": 395.5,
+        "n": 89
+      },
+      "Left-Putamen": {
+        "mean": 5353.28,
+        "sd": 492.29,
+        "n": 89
+      },
+      "Right-Putamen": {
+        "mean": 5336.46,
+        "sd": 499.53,
+        "n": 89
+      },
+      "Left-Pallidum": {
+        "mean": 1953.34,
+        "sd": 150.48,
+        "n": 89
+      },
+      "Right-Pallidum": {
+        "mean": 1879.09,
+        "sd": 142.91,
+        "n": 89
+      },
+      "Left-Hippocampus": {
+        "mean": 4070.16,
+        "sd": 296.31,
+        "n": 89
+      },
+      "Right-Hippocampus": {
+        "mean": 4141.96,
+        "sd": 296.43,
+        "n": 89
+      },
+      "Left-Amygdala": {
+        "mean": 1727.11,
+        "sd": 121.89,
+        "n": 89
+      },
+      "Right-Amygdala": {
+        "mean": 1799.43,
+        "sd": 127.49,
+        "n": 89
+      },
+      "Left-Accumbens-area": {
+        "mean": 634.7,
+        "sd": 74.02,
+        "n": 89
+      },
+      "Right-Accumbens-area": {
+        "mean": 665.58,
+        "sd": 77.04,
+        "n": 89
+      },
+      "Left-Thalamus": {
+        "mean": 7983.99,
+        "sd": 420.04,
+        "n": 89
+      },
+      "Right-Thalamus": {
+        "mean": 7727.87,
+        "sd": 409.29,
+        "n": 89
+      },
+      "Left-Cerebellum-Cortex": {
+        "mean": 53110.7,
+        "sd": 4057.42,
+        "n": 89
+      },
+      "Right-Cerebellum-Cortex": {
+        "mean": 54337.99,
+        "sd": 4026.74,
+        "n": 89
+      }
+    },
+    "GLOBAL": {
+      "Left-Caudate": {
+        "mean": 3866.69,
+        "sd": 399.03,
+        "n": 429
+      },
+      "Right-Caudate": {
+        "mean": 4039.33,
+        "sd": 412.53,
+        "n": 429
+      },
+      "Left-Putamen": {
+        "mean": 5499.87,
+        "sd": 492.64,
+        "n": 429
+      },
+      "Right-Putamen": {
+        "mean": 5525.59,
+        "sd": 500.72,
+        "n": 429
+      },
+      "Left-Pallidum": {
+        "mean": 1922.71,
+        "sd": 161.28,
+        "n": 429
+      },
+      "Right-Pallidum": {
+        "mean": 1825.0,
+        "sd": 153.74,
+        "n": 429
+      },
+      "Left-Hippocampus": {
+        "mean": 4005.69,
+        "sd": 304.66,
+        "n": 429
+      },
+      "Right-Hippocampus": {
+        "mean": 4093.26,
+        "sd": 311.08,
+        "n": 429
+      },
+      "Left-Amygdala": {
+        "mean": 1663.69,
+        "sd": 165.12,
+        "n": 429
+      },
+      "Right-Amygdala": {
+        "mean": 1737.0,
+        "sd": 167.47,
+        "n": 429
+      },
+      "Left-Accumbens-area": {
+        "mean": 701.49,
+        "sd": 108.94,
+        "n": 429
+      },
+      "Right-Accumbens-area": {
+        "mean": 710.83,
+        "sd": 97.68,
+        "n": 429
+      },
+      "Left-Thalamus": {
+        "mean": 7699.83,
+        "sd": 504.82,
+        "n": 429
+      },
+      "Right-Thalamus": {
+        "mean": 7461.29,
+        "sd": 481.1,
+        "n": 429
+      },
+      "Left-Cerebellum-Cortex": {
+        "mean": 52100.98,
+        "sd": 7987.97,
+        "n": 429
+      },
+      "Right-Cerebellum-Cortex": {
+        "mean": 51755.16,
+        "sd": 7455.27,
+        "n": 429
+      }
+    }
+  },
+  "n_subjects_seen": 584,
+  "n_subjects_skipped": 0,
+  "source": "ADHD-200 control subjects (label==0), FastSurfer aseg+DKT.VINN.stats, ICV-corrected to ICV_REF"
+}

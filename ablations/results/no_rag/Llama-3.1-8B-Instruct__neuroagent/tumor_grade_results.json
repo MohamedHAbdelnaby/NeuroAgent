@@ -1,0 +1,39 @@
+{
+  "n_samples": 1621,
+  "n_positive": 1223,
+  "n_negative": 398,
+  "accuracy": 0.6909,
+  "balanced_accuracy": 0.7113,
+  "precision_macro": 0.6595,
+  "recall_macro": 0.7113,
+  "f1_macro": 0.6552,
+  "f1_positive": 0.7662,
+  "f1_negative": 0.5441,
+  "precision_positive": 0.8924,
+  "recall_positive": 0.6713,
+  "precision_negative": 0.4265,
+  "recall_negative": 0.7513,
+  "sensitivity": 0.6713,
+  "specificity": 0.7513,
+  "confusion_matrix": [
+    [
+      299,
+      99
+    ],
+    [
+      402,
+      821
+    ]
+  ],
+  "true_negatives": 299,
+  "false_positives": 99,
+  "false_negatives": 402,
+  "true_positives": 821,
+  "auc_roc": 0.7113,
+  "pr_auc": 0.8471,
+  "model": "Llama-3.1-8B-Instruct",
+  "task": "tumor_grade",
+  "n_invalid": 0,
+  "total_tokens": 28414120,
+  "mean_elapsed_s": 22.77
+}

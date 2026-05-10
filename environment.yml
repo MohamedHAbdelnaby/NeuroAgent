@@ -1,0 +1,34 @@
+name: neuroagent
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - conda-forge
+dependencies:
+  - python=3.11
+  - matplotlib
+  - numpy
+  - pandas
+  - requests
+  - scikit-learn
+  - scipy
+  - seaborn
+  - tqdm
+  - ipykernel
+  - nibabel
+  - cudatoolkit=12.4
+  - pandoc
+  - pip
+  - pip:
+      # Neuroimaging
+      - nilearn>=0.10
+      - torch>=2.6
+      # Agents / LLM
+      - openai>=1.0
+      # RAG / Vector store
+      - chromadb>=0.5
+      - sentence-transformers>=3.0
+      # Report export
+      - weasyprint>=60
+      # Preprocessing
+      - fmriprep
